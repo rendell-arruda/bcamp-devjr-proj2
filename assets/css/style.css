@@ -5,6 +5,7 @@ html,
 body,
 h1,
 h2,
+h3,
 p,
 div,
 img,
@@ -30,7 +31,7 @@ body {
 main {
   background: linear-gradient(to right, #41295a, #2f0743);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-  max-width: 860px;
+  max-width: 740px;
   padding: 20px;
   border-radius: 8px;
   color: #f1f1f1;
@@ -81,6 +82,32 @@ form input:focus {
   outline: none;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
+
+.cards {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(to bottom, #00b4db, #0083b0);
+  padding: 10px;
+  width: 160px;
+  height: 210px;
+  border: #004e92 8px solid;
+}
+
+.card img {
+  height: 80px;
+}
+
 .copy {
   margin-top: 15px;
 }
